@@ -195,41 +195,6 @@
         )]
       ),
  
-      [=== Sonstiges], [], [],
-
-      table.cell(colspan: 3,[
-        #grid(
-          columns: (50%, 50%),
-          column-gutter: 2em,
-          rows: auto,
-          row-gutter: 2em,
-          align:auto,
-          table(
-            columns: (5%, 75%, 15%),
-            rows: (auto),
-            stroke: none,
-            inset: 0pt,
-            column-gutter: 6pt,
-            row-gutter: 1em,
-
-            fa-comment(), [*Öffentliches Sprechen*], [#fa-circle(solid: true, fill: blue.darken(50%))#fa-circle(solid: true, fill: blue.darken(50%))#fa-circle(solid: true,fill: blue.darken(50%))]
-
-
-          ),
-          table(
-            columns: (5%, 75%, 15%),
-            rows: (auto),
-            stroke: none,
-            inset: 0pt,
-            column-gutter: 6pt,
-            row-gutter: 1em,
-
-            fa-pen(), [*Schreiben*], [#fa-circle(solid: true, fill: blue.darken(50%))#fa-circle(solid: true, fill: blue.darken(50%))#fa-circle(solid: true,fill: blue.darken(50%))]
-
-          ),
-
-        )
-      ]),
 
 
       [== Berufserfahrung], [], [],
@@ -239,8 +204,7 @@
         HeiGIT gGmbH, #fa-location-pin(fill: blue.darken(50%)) Heidelberg \
         *Wissenschaftliche Hilfskraft* \
         #set text(10pt)
-        - Wissenchaftliche Datenanalysen mit Python und Rust
-        - Optimierung und Testung von Routing-Algorithmen
+        Wissenchaftliche Datenanalysen mit Python und Rust
 
       ], [#fa-python(blue.darken(50%)) #fa-rust(blue.darken(50%)) #fa-code(blue.darken(50%))],
       table.hline(stroke: blue.lighten(50%)),
@@ -249,35 +213,31 @@
         Stadt Heidelberg, #fa-location-pin(fill: blue.darken(50%)) Heidelberg \ 
         *Freie Mitarbeiterin in der Stadteilenwicklung* \
         #set text(10pt)
-        - Überarbeitung des Integrierten Handlungskonzepts für die Stadtteie Bergheim und Emmertsgrund inklusive der Erstellung von Maßnahmenbündeln aus Rund 500 Ideen und Anregungen von Anwohner\*innen
-        - Organisation der 2. Stadtteilwerkstatt Emmertsgrund (inkl. der Gestaltung von Plakaten und Pinnwänden)
+        Bearbeitung, Entwicklung und Präsentation von Stadtentwicklungskonzepten im Rahmen eines Bürgerbeteiligungsverfahrens
 
-      ], [#fa-file-excel(fill: blue.darken(50%)) #fa-file-word(fill:blue.darken(50%)) #fa-file-pen(fill: blue.darken(50%))],
+      ], [#fa-file-excel(fill: blue.darken(50%)) #fa-file-word(fill:blue.darken(50%)) #fa-file-pen(fill: blue.darken(50%)) #fa-comment(blue.darken(50%))],
       [*2022-09 - 2022-12*], [
         *Praktikantin in der Koordinierungstelle Stadteilentwicklung* \
         #set text(10pt)
-      - Bearbeitung des Integrierten Handlungskonzepts (IHK) 2032 Emmertsgrund und IHK 2032   Bergheim West
-      - Vorbereitung von Präsentationen inklusive Kartenmaterial und Workshops und Netzwerktreffwn mit Quartiers- und Stadtteilmanagements
-      - Koordinierung mit externen und potentiellen Auftragnehmer*innen, anderen Ämtern
+      Bearbeitung, Entwicklung und Präsentation von Stadtentwicklungskonzepten für einzelne Stadtteile
 
-      ], [#fa-file-excel(fill: blue.darken(50%)) #fa-file-word(fill:blue.darken(50%)) #fa-file-powerpoint(fill: blue.darken(50%)) #fa-map(fill: blue.darken(50%))],
+      ], [#fa-file-excel(fill: blue.darken(50%)) #fa-file-word(fill:blue.darken(50%)) #fa-file-powerpoint(fill: blue.darken(50%)) #fa-map(fill: blue.darken(50%)) #fa-comment(blue.darken(50%))],
       table.hline(stroke: blue.lighten(50%)),
 
       [*2018-04 - 2019-04*], [
         Albert-Ludwigs-Universität Freiburg, #fa-location-pin(fill: blue.darken(50%)) Freiburg im Breisgau \ 
         *Studentische Hilfskraft im Seminar für Alte Geschichte* \
         #set text(10pt)
-        - Identifizierung von römischen Münzen des 4. Jhds. n. Chr.
-        - Inventur in der Bibliothek des Seminars für alte Geschichte
-      ], [],
+        Identifizierung von römischen Münzen des 4. Jhds. n. Chr.
+      ], [#fa-comment(blue.darken(50%))],
       table.hline(stroke: blue.lighten(50%)),
 
       [*2018-02 - 2018-03*], [
         Badischer Verlag GmbH & Co. KG, #fa-location-pin(fill: blue.darken(50%)) Freiburg im Breisgau \ 
         *Prakikantin in der Redaktion BZ-extra* \
         #set text(10pt)
-        - Verfassen von neuen Texten, Aufarbeitung alter Texte, und von Veranstaltungshinweisen
-      ], [#fa-file-word(blue.darken(50%)), #fa-pen(blue.darken(50%))],
+        Verfassen von neuen Texten und Veranstaltungshinweisen
+      ], [#fa-file-word(blue.darken(50%)), #fa-comment(blue.darken(50%))],
 
       [== Ausbildung], [], [],      
       
@@ -302,7 +262,6 @@
         Albert-Ludwigs-Universität Freiburg, #fa-location-pin(fill: blue.darken(50%)) Freiburg im Breisgau \ 
         #fa-university(blue.darken(50%)) *Studium der Geschichte* \
         #set text(10pt)
-        Ohne Abschluss \
         Nebenfach: Geographie
       ], [#fa-file-powerpoint(blue.darken(50%)) #fa-file-word(blue.darken(50%)) #fa-file-excel(blue.darken(50%)) #fa-map(blue.darken(50%)) #fa-code(blue.darken(50%))],
       table.hline(stroke: blue.lighten(50%)),
@@ -311,7 +270,6 @@
         Ruprecht-Karls-Universität Heidelberg, #fa-location-pin(fill: blue.darken(50%)) Heidelberg \ 
         #fa-university(blue.darken(50%)) *Studium der Physik* \
         #set text(10pt)
-        Ohne Abschluss
       ], [#fa-code(blue.darken(50%))],
       table.hline(stroke: blue.lighten(50%)),
 
@@ -319,7 +277,7 @@
         Gymnasium Walldorf, #fa-location-pin(fill: blue.darken(50%)) Walldorf \ 
         #fa-school(blue.darken(50%)) *Abitur* \
         #set text(10pt)
-      ], [#fa-file-powerpoint(blue.darken(50%)) #fa-file-word(blue.darken(50%)) #fa-file-excel(blue.darken(50%))],
+      ], [#fa-file-powerpoint(blue.darken(50%)) #fa-file-word(blue.darken(50%)) #fa-file-excel(blue.darken(50%)) #fa-comment(blue.darken(50%)) ],
       
     [== Ehrenamt], [], [], 
 
@@ -327,7 +285,7 @@
         Nerdfighteria Discord, #fa-globe(fill: blue.darken(50%)) Remote \ 
         *Community-Moderatorin* \
         #set text(10pt)
-        Mainoderation einer wachsenden englisch-sprachigen Online-Community mit über 9000 Mitgliedern auf Discord
+        Moderation einer wachsenden englisch-sprachigen Online-Community mit über 9000 Mitgliedern auf Discord
       ], [#fa-comment(blue.darken(50%))],
       table.hline(stroke: blue.lighten(50%)),
       
@@ -336,15 +294,13 @@
         Querreferat der VS der Universität Heidelberg,  #fa-location-pin(fill: blue.darken(50%)) Heidelberg \ 
         *Referentin des Queerreferats* \
         #set text(10pt)
-        - hochschulpolitische Aufgaben wie Sitzungsleitung und Berichterstattung an übergeordnete Gremien, sowie Vernetzung mit externen Gruppen
-        - Veranstaltungsorganisation
-        - Öffentlichkeitsarbeit
+        Hochschulpolitische Aufgaben wie Sitzungsleitung und Berichterstattung an übergeordnete Gremien, sowie Vernetzung mit externen Gruppen
       ], [#fa-file-powerpoint(blue.darken(50%)) #fa-file-word(blue.darken(50%)) #fa-file-excel(blue.darken(50%)) #fa-comment(blue.darken(50%)) ],
 
       [*2020-09 - heute*], [
         *Aktives Mitglied* \
         #set text(10pt)
-        - Hochschulpolitisches Engagement für queere Studierende
+        Hochschulpolitisches Engagement für queere Studierende
       ], [#fa-file-powerpoint(blue.darken(50%)) #fa-file-word(blue.darken(50%)) #fa-file-excel(blue.darken(50%)) #fa-file-pen(fill: blue.darken(50%)) #fa-comment(blue.darken(50%))],
     
 
