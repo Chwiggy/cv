@@ -10,7 +10,7 @@
   rows: auto,
   row-gutter: 2em,
   align:auto,
-  align(left, text(30pt, hyphenate: false, fill: blue.darken(30%))[
+  align(left, text(30pt, hyphenate: false, fill: blue.darken(50%))[
     = Emily C. Wilke
     ]),
   text(11pt)[
@@ -84,19 +84,29 @@
             fa-map(blue.darken(50%)),
             [
               *GIS-Tools* \
+              #set text(10pt)
               ArcGIS, QGIS
             ], [#fa-circle(solid: true, fill: blue.darken(50%))#fa-circle(solid: true, fill: blue.darken(50%))#fa-circle(solid: true,fill: blue.darken(50%))],
 
             fa-file(blue.darken(50%)),
             [
               *Office-Anwendungen* \
+              #set text(10pt)
               wie z.B. Microsoft-Office
             ], [#fa-circle(solid: true, fill: blue.darken(50%))#fa-circle(solid: true, fill: blue.darken(50%))#fa-circle(solid: true,fill: blue.darken(50%))],
 
             fa-file-pen(fill: blue.darken(50%)),
             [
               *Grafik-Anwendungen* \
+              #set text(10pt)
               wie z.B. Adobe Creative Cloud
+            ], [#fa-circle(solid: true, fill: blue.darken(50%))#fa-circle(solid: true, fill: blue.darken(50%))#fa-circle(solid: false,fill: blue.darken(50%))],
+
+            fa-file-pen(fill: blue.darken(50%)),
+            [
+              *Forschungs-Anwendungen* \
+              #set text(10pt)
+              wie MaxQDA, SPSS
             ], [#fa-circle(solid: true, fill: blue.darken(50%))#fa-circle(solid: true, fill: blue.darken(50%))#fa-circle(solid: false,fill: blue.darken(50%))],
 
           ),
@@ -113,17 +123,20 @@
 
             fa-code(blue.darken(50%)),
             [ *Other Programming Languages* \
+              #set text(10pt)
               Nix, C++, javascript, Java
             ], [#fa-circle(solid: true, fill: blue.darken(50%))#fa-circle(solid: true, fill: blue.darken(50%))#fa-circle(solid: false,fill: blue.darken(50%))],
 
             fa-code(blue.darken(50%)),
             [ *Markup Languages* \
+              #set text(10pt)
               Typst, Markdown, XML, HTML, LaTeX
             ], [#fa-circle(solid: true, fill: blue.darken(50%))#fa-circle(solid: true, fill: blue.darken(50%))#fa-circle(solid: false,fill: blue.darken(50%))],
 
             fa-code(blue.darken(50%)),
             [ *Deployment Tools* \
-              Docker
+              #set text(10pt)
+              Docker, Nix
             ], [#fa-circle(solid: true, fill: blue.darken(50%))#fa-circle(solid: false, fill: blue.darken(50%))#fa-circle(solid: false,fill: blue.darken(50%))],
           )
         )
@@ -256,7 +269,7 @@
         #set text(10pt)
         - Identifizierung von römischen Münzen des 4. Jhds. n. Chr.
         - Inventur in der Bibliothek des Seminars für alte Geschichte
-      ], [#fa-coins(blue.darken(50%))],
+      ], [],
       table.hline(stroke: blue.lighten(50%)),
 
       [*2018-02 - 2018-03*], [
@@ -331,8 +344,7 @@
       [*2020-09 - heute*], [
         *Aktives Mitglied* \
         #set text(10pt)
-        - Hochschulpolitische Teilhabe
-        - Veranstaltungsorganisation und Gestaltung für die Queere Community Organisation der Studierenden der Universität Heidelberg
+        - Hochschulpolitisches Engagement für queere Studierende
       ], [#fa-file-powerpoint(blue.darken(50%)) #fa-file-word(blue.darken(50%)) #fa-file-excel(blue.darken(50%)) #fa-file-pen(fill: blue.darken(50%)) #fa-comment(blue.darken(50%))],
     
 
