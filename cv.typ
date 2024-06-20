@@ -124,7 +124,7 @@
             fa-code(blue.darken(50%)),
             [ *Other Programming Languages* \
               #set text(10pt)
-              Nix, C++, javascript, Java
+              Nix, C++, javascript, R, Java
             ], [#fa-circle(solid: true, fill: blue.darken(50%))#fa-circle(solid: true, fill: blue.darken(50%))#fa-circle(solid: false,fill: blue.darken(50%))],
 
             fa-code(blue.darken(50%)),
@@ -136,8 +136,8 @@
             fa-code(blue.darken(50%)),
             [ *Deployment Tools* \
               #set text(10pt)
-              Docker, Nix
-            ], [#fa-circle(solid: true, fill: blue.darken(50%))#fa-circle(solid: false, fill: blue.darken(50%))#fa-circle(solid: false,fill: blue.darken(50%))],
+              OCI-Images, Docker, Nix
+            ], [#fa-circle(solid: true, fill: blue.darken(50%))#fa-circle(solid: true, fill: blue.darken(50%))#fa-circle(solid: false,fill: blue.darken(50%))],
           )
         )
       ]),
@@ -204,8 +204,10 @@
         HeiGIT gGmbH, #fa-location-pin(fill: blue.darken(50%)) Heidelberg \
         *Wissenschaftliche Hilfskraft* \
         #set text(10pt)
-        Wissenchaftliche Datenanalysen mit Python und Rust
-
+        - Wissenchaftliche Datenanalysen mit Python, R, und Rust
+        - Erstellen von Datenpipelines in Python
+        - Hilfe bei der Optimierung von Routing Algorithmen für `openrouteservice.org`
+        - Analyse von GTFS-Sollfahrplandaten und deren Aufbereitung mit Verspätungs-Daten
       ],
       table.hline(stroke: blue.lighten(50%)),
 
@@ -213,23 +215,25 @@
         Stadt Heidelberg, #fa-location-pin(fill: blue.darken(50%)) Heidelberg \ 
         *Freie Mitarbeiterin in der Stadteilenwicklung* \
         #set text(10pt)
-        Bearbeitung, Entwicklung und Präsentation von Stadtentwicklungskonzepten im Rahmen eines Bürgerbeteiligungsverfahrens
-
+        - Bearbeitung, Entwicklung und Präsentation von Entwicklungskonzepten in einem Bürgerbeteiligungsverfahrens
       ],
 
       [*2022-09 - 2022-12*], [
         *Praktikantin in der Koordinierungstelle Stadteilentwicklung* \
         #set text(10pt)
-      Bearbeitung, Entwicklung und Präsentation von Stadtentwicklungskonzepten für einzelne Stadtteile
+      - Bearbeitung, Entwicklung und Präsentation von Stadtteilentwicklungskonzepten
+      - Koordination verschiedener Stakeholder innerhalb der Stadtverwaltung, unter den Auftragnehmern der Stadt und Bürger\*innen
 
       ],
+      
       table.hline(stroke: blue.lighten(50%)),
 
       [*2018-04 - 2019-04*], [
         Albert-Ludwigs-Universität Freiburg, #fa-location-pin(fill: blue.darken(50%)) Freiburg im Breisgau \ 
         *Studentische Hilfskraft im Seminar für Alte Geschichte* \
         #set text(10pt)
-        Identifizierung von römischen Münzen des 4. Jhds. n. Chr.
+        - Identifizierung von römischen Münzen des 4. Jhds. n. Chr.
+        - Dateneingabe für `ikmk.uni-freiburg.de`
       ],
       table.hline(stroke: blue.lighten(50%)),
 
@@ -237,7 +241,7 @@
         Badischer Verlag GmbH & Co. KG, #fa-location-pin(fill: blue.darken(50%)) Freiburg im Breisgau \ 
         *Prakikantin in der Redaktion BZ-extra* \
         #set text(10pt)
-        Verfassen von neuen Texten und Veranstaltungshinweisen
+        - Journalistische Kommunikation
       ],
 
       [== Ausbildung], [],      
@@ -246,8 +250,8 @@
         Ruprecht-Karls-Universität Heidelberg, #fa-location-pin(fill: blue.darken(50%)) Heidelberg \ 
         #fa-graduation-cap(blue.darken(50%)) *Bachelor of Science Geographie* \
         #set text(10pt)
-        Bachelor-Arbeit: "Simple Open Data Measures of Public Transit Service Availability" \
-        Wahlpflichtfach: Geschichte
+        - Bachelor-Arbeit im Schwerpunk Geoinformatik: "Simple Open Data Measures of Public Transit Service Availability" \
+        - Wahlpflichtfach: Geschichte
       ],
       table.hline(stroke: blue.lighten(50%)),
 
@@ -256,6 +260,8 @@
         #fa-bus(blue.darken(50%)) *7. VDV Sommeruniversität* \
         #set text(10pt)
         Nachhaltige Mobilität im Rhein-Main-Neckar-Gebiet
+        - Einblicke in Unternehmen des öffentlichen Personennahverkehrs in der Region
+        - Präsentation zur Umsetzung von Mobilitätsbudgets
       ],
       table.hline(stroke: blue.lighten(50%)),
 
@@ -271,6 +277,7 @@
         Ruprecht-Karls-Universität Heidelberg, #fa-location-pin(fill: blue.darken(50%)) Heidelberg \ 
         #fa-university(blue.darken(50%)) *Studium der Physik* \
         #set text(10pt)
+        - Einführung in die Programmierung mit C++
       ],
       table.hline(stroke: blue.lighten(50%)),
 
@@ -295,13 +302,13 @@
         Querreferat der VS der Universität Heidelberg,  #fa-location-pin(fill: blue.darken(50%)) Heidelberg \ 
         *Referentin des Queerreferats* \
         #set text(10pt)
-        Hochschulpolitische Aufgaben wie Sitzungsleitung und Berichterstattung an übergeordnete Gremien, sowie Vernetzung mit externen Gruppen
+        - Hochschulpolitische Aufgaben wie Sitzungsleitung und Berichterstattung an übergeordnete Gremien, sowie Vernetzung mit externen Gruppen
       ],
 
       [*2020-09 - heute*], [
         *Aktives Mitglied* \
         #set text(10pt)
-        Hochschulpolitisches Engagement für queere Studierende
+        - Hochschulpolitisches Engagement für queere Studierende
       ],
     
 
